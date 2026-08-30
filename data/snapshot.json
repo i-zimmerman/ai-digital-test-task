@@ -1,0 +1,5432 @@
+{
+  "promptVersion": "v2",
+  "model": "claude-opus-5",
+  "generatedAt": "2026-08-28T20:32:54.222Z",
+  "usage": {
+    "inputTokens": 22972,
+    "outputTokens": 38576,
+    "cachedInputTokens": 41846
+  },
+  "analyses": [
+    {
+      "id": "r_00ee52cca4",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "left earbud failed after a week",
+          "quote": "Left earbud stopped working after a week",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Left earbud stopped working after only a week.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_0102e52e9c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "long loading spinner",
+          "quote": "spinning wheel for ages",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Praises it as best in category but complains about very slow loading.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_01c39b1cce",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "undisclosed hidden fees",
+          "quote": "Hidden fees nobody told me about.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User regrets paying due to hidden fees.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_0331341973",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no recurring tasks",
+          "quote": "Wish it had recurring tasks",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User wants recurring tasks support.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_06f94fc663",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "product_quality",
+          "label": "spoiled ingredients on arrival",
+          "quote": "ingredients were spoiled on arrival",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Support was fast but ingredients arrived spoiled.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_06fa21d593",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "exactly what was needed",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new laut is confusing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Meets the user's needs but the new layout is confusing.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_08507e1951",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new layout is confusign",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Fast support but the new layout is confusing.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_0857a9603d",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "charged twice",
+          "quote": "Charged me twice",
+          "severity": "critical"
+        },
+        {
+          "category": "support_quality",
+          "label": "support unresponsive",
+          "quote": "support won't respond",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "User was double-charged and support is not responding.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_086ea16b49",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "crashes on every sync",
+          "quote": "App crashes every single time I try to sync!",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "App crashes every time the user tries to sync.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_08972ad5aa",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "password reset email never arrives",
+          "quote": "Password reset email never arrives",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Password reset emails never arrive, blocking access.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_08c4309efd",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves it after months of use",
+          "quote": "Honestly love it",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-term user loves the product.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_096c68fc4c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "constant crashing after update",
+          "quote": "constant crashing since the update",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Fast support but the app crashes constantly since the update.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_0ae54b33dd",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "export button hard to find",
+          "quote": "Can't find the export button anymore.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User can no longer find the export button.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_0aefdadeaa",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "Takes forever to load.",
+          "severity": "medium"
+        },
+        {
+          "category": "pricing_value",
+          "label": "regrets paying",
+          "quote": "Regret paying for this.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User regrets paying because the app is very slow to load.",
+      "confidence": 0.78
+    },
+    {
+      "id": "r_0bac3018ff",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "delivery_fulfillment",
+          "label": "half the order missing",
+          "quote": "missing half the order",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Good support but half the order was missing.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_0c6a718de4",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "billing_charges",
+          "label": "charged twice this month",
+          "quote": "got charged twice this month",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Likes the product but was charged twice this month.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_0dc527f328",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "slow support response",
+          "quote": "took 5 days to hear back",
+          "severity": "medium"
+        },
+        {
+          "category": "pricing_value",
+          "label": "price increased without warning",
+          "quote": "price went up with no warning",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Slow support replies and an unannounced price increase.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_0eb16ddd07",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "stuck in 2FA loop",
+          "quote": "2fa loop won't let me in",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User is locked out by a 2FA loop.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_0f09b6e644",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "slow support response",
+          "quote": "took 5 days to hear back",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Beautiful design but support took five days to reply.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_0f4f387420",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "useless chatbot, no human",
+          "quote": "chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "crashes and loses work",
+          "quote": "app closes randomly and I lose my work",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Unreachable human support and crashes causing lost work.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_104e812f3c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "useless chatbot, no human",
+          "quote": "chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Support eventually helped fast but the chatbot blocked reaching a human.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_110470cdab",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "battery dies within an hour",
+          "quote": "Battery dies in an hour",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Battery only lasts an hour.",
+      "confidence": 0.82
+    },
+    {
+      "id": "r_11d68c800a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "cannot log in after update",
+          "quote": "Can't log back in after teh update",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User cannot log back in after the update.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_11fb7f0564",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "free tier gutted",
+          "quote": "The free tier is basically useless now",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User says the free tier has become useless.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_1206806423",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User praises the app as best in its category.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_125c197df2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "huge time saver",
+          "quote": "Huge time saver.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User is happy; the app saves a lot of time.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_12dfde002f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the app",
+          "quote": "Honestly love it.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User loves the fitness app so far.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_12e3c73b6f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "not worth the subscription",
+          "quote": "not worth the subscription",
+          "severity": "medium"
+        },
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "needs a web version",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User feels the subscription isn't worth it and wants a web version.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_14bc063505",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "spoiled ingredients on arrival",
+          "quote": "Ingredients were spoiled on arrival.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Meal kit ingredients arrived spoiled.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_14c6f3a3d8",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no bulk edit",
+          "quote": "No way to bulk edit.",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User regrets buying because there is no bulk edit capability.",
+      "confidence": 0.83
+    },
+    {
+      "id": "r_18240baa21",
+      "is_spam": false,
+      "language": "de",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "constant crashes after update",
+          "quote": "Die App stürzt ständig ab seit dem letzten Update.",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "App crashes constantly since the latest update.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_182796fb17",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "undisclosed hidden fees",
+          "quote": "Hidden fees nobody told me about.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User is upset about hidden fees.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_18874dd1ad",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "too many taps per action",
+          "quote": "too many taps to do one thing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Best in class but requires too many taps.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_1afa6aa76b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well for user",
+          "quote": "Works great for me.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User is happy with the product overall.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_1b05c69baa",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "charging case not charging",
+          "quote": "Case doesn't charge",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "The charging case does not charge.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_1bc2354d9d",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "Takes forever to load.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User reports the app takes far too long to load.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_1cdb6043c9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no offline mode",
+          "quote": "still no offline mode",
+          "severity": "low"
+        },
+        {
+          "category": "billing_charges",
+          "label": "refund not received",
+          "quote": "refund still hasn't come through",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Wants offline mode and is still waiting on a refund.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_1f4faa8f0a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new laut is confusing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support was fast but the new layout confuses the user.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_1fbd7ac0c7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "box arrived a day late",
+          "quote": "Box arrived a day late",
+          "severity": "medium"
+        },
+        {
+          "category": "product_quality",
+          "label": "contents arrived warm",
+          "quote": "warm",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Order arrived a day late and warm.",
+      "confidence": 0.75
+    },
+    {
+      "id": "r_1fd3454074",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User praises the product as best in its category.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_2009e3bb71",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "big time saver",
+          "quote": "Huge time saver.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-time user finds the meal kit a big time saver.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_21219f0ae4",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no recurring tasks",
+          "quote": "wish it had recurrign tasks",
+          "severity": "low"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "crashes on every launch",
+          "quote": "crashes every time I open it",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Wants recurring tasks and the app crashes on every launch.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_21d307f5c4",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "too many taps for one action",
+          "quote": "Too many taps to do one thing.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User regrets the purchase because simple actions take too many taps.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_22c685a634",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "rude agent on the phone",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Likes the design but was treated rudely by a phone agent.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_2383c3db84",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Product fits needs but user is locked out of their account.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_24734e41d9",
+      "is_spam": false,
+      "language": "zh",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "easy to use, beautiful UI",
+          "quote": "很好用，界面漂亮",
+          "severity": "none"
+        },
+        {
+          "category": "pricing_value",
+          "label": "too expensive",
+          "quote": "太贵了",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Easy to use with a nice interface but too expensive.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_24af3e35c3",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "slow support response",
+          "quote": "Took 5 days to hear back.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support took five days to respond.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_251e81292e",
+      "is_spam": false,
+      "language": "pt",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "order arrived late",
+          "quote": "O pedido chegou atrasado",
+          "severity": "medium"
+        },
+        {
+          "category": "product_quality",
+          "label": "food arrived spoiled",
+          "quote": "chegou atrasado e estragado",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Order arrived late and spoiled.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_255a351a4f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user's needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "unreadable dark mode",
+          "quote": "dark mode is unreadable",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Product suits the user but dark mode is unreadable.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_25b640ada9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "crash during presentation",
+          "quote": "another crash right in the middle of my presentation",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Sarcastic complaint about a crash during a presentation.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_272c17cf37",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User is happy; support resolved the issue quickly.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_2756ae4dd7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "battery_hardware",
+          "label": "battery dies in an hour",
+          "quote": "battery dies in an hour",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Works well but battery only lasts an hour.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_278b85a4b1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "long loading spinner",
+          "quote": "Spinnign wheel for ages.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "App is very slow with long loading spinners.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_2b60a41951",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well for user",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "missing_features",
+          "label": "no bulk edit",
+          "quote": "no way to bulk edit",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Works well but lacks bulk editing.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_2c040b5fca",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "won't hold a charge",
+          "quote": "Won't hold a charge anymore",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Device no longer holds a charge and user regrets the purchase.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_2caf6a9646",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Honestly love it",
+          "severity": "none"
+        },
+        {
+          "category": "pricing_value",
+          "label": "undisclosed hidden fees",
+          "quote": "hidden fees nobody told me about",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Likes the app but was hit with undisclosed fees.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_2dc2c0e066",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "laggy and slow response",
+          "quote": "laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Beautiful design but laggy and slow performance.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_2e00ed8a00",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no offline mode",
+          "quote": "Still no offline mode.",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User regrets purchase due to lack of offline mode.",
+      "confidence": 0.82
+    },
+    {
+      "id": "r_2f44aba3c7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "late delivery, box warm",
+          "quote": "Box arrived a day late and warm",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Package arrived a day late and warm.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_2fb8933b5a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "package left in the rain",
+          "quote": "Delivery left in the rain.",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Delivery was mishandled and left in the rain.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_30f4500bcf",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "price increase without warning",
+          "quote": "Price went up with no warning",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User regrets paying after an unannounced price increase.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_3144e02fce",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "Locked out of my own account",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User is locked out of their account.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_3150d43c72",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "billed after I cancelled",
+          "severity": "critical"
+        },
+        {
+          "category": "battery_hardware",
+          "label": "left earbud stopped working",
+          "quote": "left earbud stopped working after a week",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Billed after cancelling and a left earbud failed within a week.",
+      "confidence": 0.83
+    },
+    {
+      "id": "r_3378f6373d",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "password reset email never arrives",
+          "quote": "Password reset email never arrives",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User cannot reset password because the email never arrives.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_33ab54da69",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "battery dies in an hour",
+          "quote": "battery dies in an hour",
+          "severity": "high"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "app closes and loses work",
+          "quote": "app closes randomly and I lose my work",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Battery lasts only an hour and the app crashes, losing work.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_3406399f60",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the app",
+          "quote": "Honestly love it",
+          "severity": "none"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "constant crashes after update",
+          "quote": "constant crashing since the update",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "User likes the app but it crashes constantly since the update.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_34fc0590c0",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "charged twice this month",
+          "quote": "Got charged twice this month.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User was charged twice this month and regrets paying.",
+      "confidence": 0.94
+    },
+    {
+      "id": "r_3541389f22",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "huge time saver",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "delivery_fulfillment",
+          "label": "delivery one day late",
+          "quote": "box arrived a day late",
+          "severity": "medium"
+        },
+        {
+          "category": "product_quality",
+          "label": "arrived warm",
+          "quote": "warm",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Praises the time savings but the box arrived a day late and warm.",
+      "confidence": 0.75
+    },
+    {
+      "id": "r_35807c0a6b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "export button hidden",
+          "quote": "Great job hiding the export button",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Sarcastic complaint that the export button is now hidden.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_35c004382e",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "random crashes lose work",
+          "quote": "App closes randomly and i lose my work.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App closes randomly and the user loses work.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_36b5eece7e",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "password reset email never arrives",
+          "quote": "Password reset email never arrives.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User cannot reset their password because the reset email never arrives.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_3831263b56",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "support never responded",
+          "quote": "support never replied",
+          "severity": "high"
+        },
+        {
+          "category": "battery_hardware",
+          "label": "battery dies within an hour",
+          "quote": "battery dies in an hour",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Support never replied and the battery lasts only an hour.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_3879b18df5",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "too expensive for value",
+          "quote": "way too expensive for what it does",
+          "severity": "medium"
+        },
+        {
+          "category": "delivery_fulfillment",
+          "label": "box arrived a day late",
+          "quote": "box arrived a day late",
+          "severity": "medium"
+        },
+        {
+          "category": "product_quality",
+          "label": "food arrived warm",
+          "quote": "warm",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Complains about price and a late delivery that arrived warm.",
+      "confidence": 0.78
+    },
+    {
+      "id": "r_38879316f6",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works great",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Likes the product but is locked out of their account.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_3899900140",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        },
+        {
+          "category": "missing_features",
+          "label": "no recurring tasks",
+          "quote": "wish it had recurring tasks",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User is locked out of their account and wants recurring tasks.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_39130b5889",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works great",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Likes the app but is locked out of their own account.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_3bc13b5f66",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "refund not received",
+          "quote": "Refund still hasn't come through.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User's refund has not arrived.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_3bc96d0c08",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "charging case does not charge",
+          "quote": "Case doesn't charge",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "The charging case does not charge.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_3ddb5bc966",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "saves a lot of time",
+          "quote": "Huge time saver",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User praises the product as a big time saver.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_3e74a62234",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "premium feel and great sound",
+          "quote": "The hardware feels premium and the sound is amazing",
+          "severity": "none"
+        },
+        {
+          "category": "product_quality",
+          "label": "left bud died after a week",
+          "quote": "the left bud died after a week",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Great sound and build but the left earbud died within a week.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_3eb8af6cac",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "too expensive for value",
+          "quote": "Way too expensive for what it does.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User finds the product too expensive for what it offers.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_3fa3b701ea",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "huge time saver",
+          "quote": "Huge time saver.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-term user finds it a huge time saver.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_401cbedf1c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "free tier gutted",
+          "quote": "the free tier is basically useless now",
+          "severity": "medium"
+        },
+        {
+          "category": "ux_usability",
+          "label": "export button hard to find",
+          "quote": "can't find the export button anymore",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Free tier is now useless and the export button is hard to find.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_434b2a1030",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        },
+        {
+          "category": "delivery_fulfillment",
+          "label": "package left in the rain",
+          "quote": "delivery left in the rain",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "User is locked out of their account and delivery was left in the rain.",
+      "confidence": 0.91
+    },
+    {
+      "id": "r_444b560816",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "export button hard to find",
+          "quote": "Can't find the export button anymore.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User can no longer locate the export button.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_45bdb2edbc",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "exactly what user needed",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Purely positive feedback.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_45cba10d32",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "exactly what was needed",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "too many taps per action",
+          "quote": "too many taps to do one thing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Useful app but requires too many taps for simple actions.",
+      "confidence": 0.89
+    },
+    {
+      "id": "r_45dcf7072b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "Billed after i cancelled.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User was billed after cancelling the subscription.",
+      "confidence": 0.94
+    },
+    {
+      "id": "r_468c228ae7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Honestly love it",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "laggy and slow",
+          "quote": "laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Loves it but finds it laggy and slow.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_48884afd55",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "support never replied",
+          "quote": "support never replied",
+          "severity": "high"
+        },
+        {
+          "category": "pricing_value",
+          "label": "free tier gutted",
+          "quote": "the free tier is basically useless now",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support never replied and the free tier is now useless.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_48d409d6cc",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well",
+          "quote": "Works great for me.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User says it works great.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_49f1761890",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new layout is confusing",
+          "severity": "medium"
+        },
+        {
+          "category": "battery_hardware",
+          "label": "won't hold a charge",
+          "quote": "won't hold a charge anymore",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Confusing new layout and the device no longer holds a charge.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_4a6d3a0ad7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "sync takes minutes",
+          "quote": "sync takes minutes",
+          "severity": "medium"
+        },
+        {
+          "category": "pricing_value",
+          "label": "not worth the subscription",
+          "quote": "not worth teh subscription",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Slow sync and the subscription feels not worth the price.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_4b9a1999c9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "excellent food quality",
+          "quote": "Food quality is excellent when it arrives",
+          "severity": "none"
+        },
+        {
+          "category": "delivery_fulfillment",
+          "label": "frequently late deliveries",
+          "quote": "the problem is it's late half the time",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Praises food quality but deliveries are often late.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_4ec7370886",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well overall",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "export button hard to find",
+          "quote": "can't find the export button anymore",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Likes the product but can no longer find the export button.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_4ee453edde",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "2FA loop blocks login",
+          "quote": "2FA loop won't let me in",
+          "severity": "critical"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "freezes on home screen",
+          "quote": "keeps freezing on the home screen",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "A 2FA loop blocks login and the app freezes on the home screen.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_501eba2f4e",
+      "is_spam": false,
+      "language": "es",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "charged twice in one month",
+          "quote": "Me cobraron dos veces este mes",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Charged twice this month and wants a refund.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_54723cf5be",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Honestly love it.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User loves the product so far.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_56283ab38d",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "Locked out of my own account.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User is locked out of their own account.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_56c063b692",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Honestly love it",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Customer loves the meal kit.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_57611812af",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "Takes forever to load",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "App takes very long to load.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_57c0654ab7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Great product overall. Honestly love it.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Purely positive feedback about the product.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_582a747605",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "package left in the rain",
+          "quote": "delivery left in teh rain",
+          "severity": "high"
+        },
+        {
+          "category": "ux_usability",
+          "label": "too many taps for one task",
+          "quote": "too many taps to do one thing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Delivery was mishandled in the rain and the app takes too many taps.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_58bb46cd27",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works great",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "needs a web version",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Works well but the user wants a web version.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_591aca435a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "box arrived a day late",
+          "quote": "Box arrived a day late",
+          "severity": "medium"
+        },
+        {
+          "category": "product_quality",
+          "label": "food arrived warm",
+          "quote": "warm",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Meal kit box arrived a day late and warm.",
+      "confidence": 0.82
+    },
+    {
+      "id": "r_5a2c573a3b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Honestly love it",
+          "severity": "none"
+        },
+        {
+          "category": "battery_hardware",
+          "label": "left earbud stopped working",
+          "quote": "left earbud stopped workign after a week",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Loves it but the left earbud failed after a week.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_5a46fb0454",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Happy customer praises fast support resolution.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_5a916b8380",
+      "is_spam": false,
+      "language": "de",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "support never replied",
+          "quote": "Der Kundendienst hat nie geantwortet.",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Customer support never replied, which was disappointing.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_5b5033dfb6",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new layout is confusing",
+          "severity": "medium"
+        },
+        {
+          "category": "missing_features",
+          "label": "no offline mode",
+          "quote": "still no offline mode",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Complains the new layout is confusing and there is still no offline mode.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_5c6c63e146",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User praises the gorgeous design.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_5d4b904b83",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Honestly love it",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "laggy and slow response",
+          "quote": "laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Loves the product but finds it laggy and slow.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_5d602d8cd8",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support handled refund quickly",
+          "quote": "Support was genuinely lovely and sorted my refund fast",
+          "severity": "none"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "app crashes daily",
+          "quote": "the app itself crashes daily",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Great support but daily app crashes are driving the user away.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_5d925e5a73",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "great design and fast",
+          "quote": "Love the design and it's fast",
+          "severity": "none"
+        },
+        {
+          "category": "pricing_value",
+          "label": "price too high now",
+          "quote": "wish it wasn't so expensive now",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Loves design and speed but finds it too expensive now.",
+      "confidence": 0.91
+    },
+    {
+      "id": "r_5d93b9e5d8",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "exactly what user needed",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "laggy and slow",
+          "quote": "laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Meets needs but is laggy and slow.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_5de012d642",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User is happy and praises the design.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_5ecb444cdb",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well for user",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "billing_charges",
+          "label": "refund not received",
+          "quote": "refund still hasn't come through",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App works well but a promised refund has not arrived.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_5f4e9e552b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "left earbud failed after a week",
+          "quote": "left earbud stopped working after a week",
+          "severity": "high"
+        },
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "An earbud failed within a week and the user is locked out of their account.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_60923316c6",
+      "is_spam": true,
+      "language": "en",
+      "sentiment": "neutral",
+      "severity": "none",
+      "issues": [],
+      "summary_en": "Spam work-from-home money scheme with a link.",
+      "confidence": 0.97
+    },
+    {
+      "id": "r_61b8c95abc",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "sync takes minutes",
+          "quote": "sync takes minutes",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Highly rated overall but syncing is very slow.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_62afe2076a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "price increase without warning",
+          "quote": "price went up with no warning",
+          "severity": "medium"
+        },
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "needs a web version",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Unannounced price increase and no web version.",
+      "confidence": 0.91
+    },
+    {
+      "id": "r_62b00a3f0a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "takes forever to load",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support was quick but the app loads very slowly.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_62b3d619b1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "too many taps per action",
+          "quote": "Too many taps to do one thing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Too many steps needed for a single action.",
+      "confidence": 0.86
+    },
+    {
+      "id": "r_6373986bbb",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Support resolved the issue quickly.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_63d127e14d",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well overall",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "crashes on every launch",
+          "quote": "crashes every time I open it",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Works well but crashes on every launch.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_6614734b3f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "too many taps per task",
+          "quote": "Too many taps to do one thing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User finds the app requires too many taps for simple tasks.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_6861cf24a5",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User praises the product's design.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_698488d91c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "laggy and slow",
+          "quote": "Laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "App is laggy and slow to respond.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_69c4e7f834",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "constant crashes after update",
+          "quote": "constant crashing since the update",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "User is locked out and the app crashes constantly since the update.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_6c62be93a6",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user's needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "missing_features",
+          "label": "no offline mode",
+          "quote": "still no offline mode",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Product meets needs but still lacks offline mode.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_6ddd69c54f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "slow support response",
+          "quote": "Took 5 days to hear back",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support took five days to respond.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_6def802523",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well long-term",
+          "quote": "Works great for me.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-time user says it works great.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_70512de997",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "won't hold a charge",
+          "quote": "won't hold a charge anymore",
+          "severity": "critical"
+        },
+        {
+          "category": "performance",
+          "label": "laggy and slow",
+          "quote": "laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Device no longer holds a charge and is laggy.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_73232f765e",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "takes forever to load",
+          "severity": "medium"
+        },
+        {
+          "category": "auth_access",
+          "label": "cannot log in after update",
+          "quote": "can't log back in after teh update",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Slow loading and unable to log in after the update.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_73733ad2be",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "pricing_value",
+          "label": "not worth the subscription",
+          "quote": "not worth teh subscription",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Fast support but the subscription isn't worth the price.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_73c199ce68",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "not worth the subscription",
+          "quote": "not worth the subscription",
+          "severity": "medium"
+        },
+        {
+          "category": "missing_features",
+          "label": "no recurring tasks",
+          "quote": "wish it had recurring tasks",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Feels the subscription isn't worth it and wants recurring tasks.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_76af6e790e",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "no human support reachable",
+          "quote": "chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Beautiful design but support chatbot is useless and no human reachable.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_783ccc545f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "too many taps per action",
+          "quote": "Too many taps to do one thing.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User finds simple actions require too many taps.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_784000dae6",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "big time saver",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "billed after I cancelled",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Saves time but user was billed after cancelling.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_7bb5ef411b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new layout is confusing",
+          "severity": "medium"
+        },
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "takes forever to load",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Confusing new layout and slow loading times.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_7bdb62ce19",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "cannot reach a human",
+          "quote": "Chatbot is useless, couldn't reach a human.",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "User could not reach a human agent past a useless chatbot.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_7c5bab76c4",
+      "is_spam": false,
+      "language": "pt",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "battery lasts only an hour",
+          "quote": "Bateria acaba em uma hora",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Battery runs out within an hour.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_7c7321054b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "Locked out of my own account",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User is locked out of their own account.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_7c8ce1d7e1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "2FA loop blocks login",
+          "quote": "2FA loop won't let me in",
+          "severity": "critical"
+        },
+        {
+          "category": "support_quality",
+          "label": "no human support reachable",
+          "quote": "chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "User is locked out by a 2FA loop and cannot reach a human via the useless chatbot.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_7fbee01b64",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no bulk edit",
+          "quote": "No way to bulk edit",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Wants a bulk edit capability that doesn't exist.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_805de601a7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Positive review praising fast support resolution.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_80895bf2de",
+      "is_spam": false,
+      "language": "fr",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "cannot log in after update",
+          "quote": "Impossible de me reconnecter après la mise à jour.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User cannot log back in after the update.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_80e6986691",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user's needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "missing_features",
+          "label": "no bulk edit",
+          "quote": "no way to bulk edit",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Useful product but lacks bulk editing.",
+      "confidence": 0.86
+    },
+    {
+      "id": "r_8122a62f76",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "too many taps per action",
+          "quote": "Too many taps to do one thign",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Too many taps required for one action.",
+      "confidence": 0.86
+    },
+    {
+      "id": "r_8170112ec9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Positive review praising fast customer support.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_82ffb2cb53",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "delivery a day late",
+          "quote": "Box arrived a day late",
+          "severity": "medium"
+        },
+        {
+          "category": "product_quality",
+          "label": "arrived warm/spoiled",
+          "quote": "warm",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Box arrived a day late and warm.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_85d00f927a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Happy customer praising fast support.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_8719fb04c5",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "won't hold a charge",
+          "quote": "Won't hold a charge anymore",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Earbuds no longer hold a charge.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_89a753d7bf",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "not worth the subscription",
+          "quote": "Not worth the subscription.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User feels the subscription is not worth the price.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_8a97582d7c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "price increase without warning",
+          "quote": "price went up with no warning",
+          "severity": "medium"
+        },
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "rude agent on the phone",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Unannounced price increase and a rude support agent.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_8be6e1a217",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "slow support response",
+          "quote": "took 5 days to hear back",
+          "severity": "medium"
+        },
+        {
+          "category": "pricing_value",
+          "label": "price increase without warning",
+          "quote": "price went up with no warning",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Slow support reply and an unannounced price increase.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_8e19482fa4",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "package left in the rain",
+          "quote": "Delivery left in the rain.",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Delivery was mishandled and left in the rain.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_8e99352068",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "New layout is confusing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User finds the new layout confusing.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_8ed48767c2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "too many taps per action",
+          "quote": "Too many taps to do one thing.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User finds the app requires too many taps for a single action.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_928172d53c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "missing_features",
+          "label": "no offline mode",
+          "quote": "still no offline mode",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Likes the product but wants an offline mode.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_9512c866c2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "slow, unhelpful support reply",
+          "quote": "love waiting 5 days for support to say 'have you tried reinstalling'",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Sarcastic complaint about a five-day wait for an unhelpful support answer.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_96c98ceb80",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "takes forever to load",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Beautiful design but the app loads very slowly.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_9989eef4e9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "won't hold a charge",
+          "quote": "Won't hold a charge anymore.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Device no longer holds a charge.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_99f969748f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Customer rates it best in its category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_9a9fd32ea8",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "spoiled ingredients on arrival",
+          "quote": "Ingredients were spoiled on arrival.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Ingredients arrived spoiled.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_9b3b9728f0",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well for months",
+          "quote": "Works great for me.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-term user says the earbuds work great.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_9c188f7084",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "New layout is confusing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User finds the new layout confusing.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_9d732349e4",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the service",
+          "quote": "Honestly love it.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-term customer loves the meal kit.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_9d784abd35",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "takes forever to load",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Product fits needs but loads very slowly.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_9ddc2bf520",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Very satisfied customer calls it best in category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_9f0e4d316d",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "laggy and slow response",
+          "quote": "Laggy and slow to respond.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User frustrated by lag and slow responsiveness.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_9f2389acc1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "exactly what was needed",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Customer is satisfied; product met their needs.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_9f69bbf7cb",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "won't hold a charge",
+          "quote": "Won't hold a charge anymore",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Product no longer holds a charge; user regrets paying.",
+      "confidence": 0.72
+    },
+    {
+      "id": "r_a47ed874be",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "crashes on every launch",
+          "quote": "crashes every time I open it",
+          "severity": "high"
+        },
+        {
+          "category": "support_quality",
+          "label": "support never responded",
+          "quote": "support never replied",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "App crashes on every launch and support never replied.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_a53d7e59e1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-time user says it's the best in its category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_a661882b05",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "no human support reachable",
+          "quote": "Chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Could not reach a human agent past a useless chatbot.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_a703085919",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "stuck in 2FA loop",
+          "quote": "2fa loop won't let me in",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "A 2FA loop prevents the user from logging in.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_a80e74f332",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "Needs a web version.",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User wants a web version.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_a9a8832da1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in its category",
+          "quote": "Best in its category.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-time user calls it the best in its category.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_aa3a14c2a6",
+      "is_spam": true,
+      "language": "en",
+      "sentiment": "neutral",
+      "severity": "none",
+      "issues": [],
+      "summary_en": "Crypto airdrop spam with no genuine feedback.",
+      "confidence": 0.96
+    },
+    {
+      "id": "r_aa642f3159",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "missing_features",
+          "label": "no recurring tasks",
+          "quote": "wish it had recurrign tasks",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Loves the design but wants recurring tasks.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_aaa75e18e0",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "random closes losing work",
+          "quote": "App closes randomly and i lose my work",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App closes randomly and the user loses work.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_aafac30e71",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "laggy and slow response",
+          "quote": "Laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User regrets paying because the app is laggy and slow.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_ab0ecc8c83",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "slow support response",
+          "quote": "Took 5 days to hear back",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support took five days to reply.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_ac1a8de851",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "left earbud failed after a week",
+          "quote": "left earbud stopped working after a week",
+          "severity": "critical"
+        },
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "rude agent on the phone",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Left earbud failed within a week and the support agent was rude.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_ad615c9b2e",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "no human support reachable",
+          "quote": "Chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "User could not reach a human because the chatbot is useless.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_ad61d2773e",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "constant crashing after update",
+          "quote": "constant crashing since the update",
+          "severity": "high"
+        },
+        {
+          "category": "product_quality",
+          "label": "left earbud failed after a week",
+          "quote": "left earbud stopped working after a week",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App crashes constantly since the update and the left earbud failed within a week.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_ae432c7f0a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "crashes on every launch",
+          "quote": "crashes every time I open it",
+          "severity": "high"
+        },
+        {
+          "category": "billing_charges",
+          "label": "refund not received",
+          "quote": "refund still hasn't come through",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App crashes on every launch and a refund has not arrived.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_ae8a5a0899",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "crashes on every launch",
+          "quote": "crashes every time I open it",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Praises design but the app crashes on every launch.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_aee60b7aaa",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the app",
+          "quote": "Honestly love it",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-time user loves the app.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_b1967ab1e2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "charging case does not charge",
+          "quote": "Case doesn't charge.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "The charging case does not charge, and the user regrets the purchase.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_b1e53011f8",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "Needs a web version",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User regrets paying and wants a web version.",
+      "confidence": 0.78
+    },
+    {
+      "id": "r_b237a2a905",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "too expensive for value",
+          "quote": "way too expensive for what it does",
+          "severity": "medium"
+        },
+        {
+          "category": "performance",
+          "label": "laggy and slow",
+          "quote": "laggy and slow to respond",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Finds it overpriced and slow to respond.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_b35a71eb4c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "New layout is confusing.",
+          "severity": "medium"
+        },
+        {
+          "category": "pricing_value",
+          "label": "regrets paying",
+          "quote": "Regret payign for this.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User regrets paying and finds the new layout confusing.",
+      "confidence": 0.75
+    },
+    {
+      "id": "r_b3b3a019af",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "2FA loop blocks login",
+          "quote": "2FA loop won't let me in",
+          "severity": "critical"
+        },
+        {
+          "category": "performance",
+          "label": "long loading spinner",
+          "quote": "spinning wheel for ages",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Locked out by a 2FA loop and the app is very slow to load.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_b4e00d4ddc",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "not worth the subscription",
+          "quote": "Not worth the subscription.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Customer feels the subscription is not worth the price.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_b4e403341c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "big time saver",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "five days for a reply",
+          "quote": "took 5 days to hear back",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Saves time but support took five days to respond.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_b514e5e172",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "Rude agent on teh phone",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User encountered a rude support agent by phone.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_b55e3c30d1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "too expensive for value",
+          "quote": "way too expensive for what it does",
+          "severity": "medium"
+        },
+        {
+          "category": "ux_usability",
+          "label": "unreadable dark mode",
+          "quote": "dark mode is unreadable",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Finds it overpriced and the dark mode unreadable.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_b93deaf343",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "pricing_value",
+          "label": "too expensive for features",
+          "quote": "way too expensive for what it does",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Praises fast support but finds the product overpriced.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_b99d2110ee",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "charging case doesn't charge",
+          "quote": "Case doesn't charge",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Regrets purchase because the charging case does not charge.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_b9ca88109f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "saves a lot of time",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "random crashes lose work",
+          "quote": "app closes randomly and I lose my work",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Time-saving app but random crashes cause lost work.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_ba0a47e6a9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "charged twice",
+          "quote": "charged twice",
+          "severity": "critical"
+        },
+        {
+          "category": "performance",
+          "label": "app is slow",
+          "quote": "AND slow",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Sarcastic review: user was double-charged and the app is slow.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_ba45f84f34",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "free tier gutted",
+          "quote": "the free tier is basically useless now",
+          "severity": "medium"
+        },
+        {
+          "category": "performance",
+          "label": "long loading spinner",
+          "quote": "spinning wheel for ages",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Free tier now useless and the app is very slow to load.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_ba71d5d38f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "cannot log in after update",
+          "quote": "Can't log back in after teh update.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User cannot log in after the update.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_babdb3aea7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user's needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "too many taps per task",
+          "quote": "too many taps to do one thing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Useful app but requires too many taps for simple actions.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_bb08a1acab",
+      "is_spam": true,
+      "language": "en",
+      "sentiment": "neutral",
+      "severity": "none",
+      "issues": [],
+      "summary_en": "Spam promoting follower sales.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_bc84af33b9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "half the order missing",
+          "quote": "Missing half the order",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Half of the order was missing.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_bec80a9108",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "saves a lot of time",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "product_quality",
+          "label": "ingredients spoiled on arrival",
+          "quote": "ignredients were spoiled on arrival",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Positive on time savings but ingredients arrived spoiled.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_bef118d621",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "Billed after i cancelled",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User was billed after cancelling.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_bf4c435496",
+      "is_spam": false,
+      "language": "es",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "app closes on every launch",
+          "quote": "La aplicación se cierra sola cada vez que la abro",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "The app closes itself every time the user opens it.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_c13af8bfc4",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "unreadable dark mode",
+          "quote": "Dark mode is unreadable.",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User says dark mode is unreadable.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_c349fef93f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Long-time user praises the gorgeous design.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_c3e43c4653",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User praises the product as best in its category.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_c5eb186685",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "export button hard to find",
+          "quote": "Can't find the export button anymore.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User can no longer find the export button.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_c630b095e7",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "cannot log in after update",
+          "quote": "Can't log back in after teh update.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User cannot log back in after an update.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_c6377e8163",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "refund not received",
+          "quote": "Refund still hasn't come through",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Refund has not been received.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_c8f89c17d1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "free tier gutted",
+          "quote": "The free tier is basically useless now.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User complains the free tier has become useless.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_c9ad8eaf88",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no offline mode",
+          "quote": "Still no offline mode",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User frustrated that offline mode is still missing.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_ca15a7f564",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "spoiled ingredients on arrival",
+          "quote": "Ingredients were spoiled on arrival.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Ingredients arrived spoiled, user frustrated.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_ca5ca52c95",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "too many taps per task",
+          "quote": "Too many taps to do one thing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User finds too many taps needed for a single action.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_cab8fc978c",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well overall",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "battery_hardware",
+          "label": "no longer holds a charge",
+          "quote": "won't hold a charge anymore",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Works well but the device no longer holds a charge.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_cae13a5d28",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "Customer loves the product and its design.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_cb0fed05ba",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "Billed after i cancelled.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User was billed after cancelling.",
+      "confidence": 0.94
+    },
+    {
+      "id": "r_cd05d99c89",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "Needs a web version",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User wants a web version.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_cdd74a5d55",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well for user",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "billed after I cancelled",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App works well but user was billed after cancelling.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_ce5547de1a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the product",
+          "quote": "Honestly love it",
+          "severity": "none"
+        },
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "billed after I cancelled",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Loves the service but was billed after cancelling.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_d089ea2e21",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "locked out of my own account",
+          "severity": "critical"
+        },
+        {
+          "category": "pricing_value",
+          "label": "price increase without warning",
+          "quote": "price went up with no warnign",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User is locked out of their account and unhappy about an unannounced price increase.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_d30fee89e6",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "battery_hardware",
+          "label": "battery dies in an hour",
+          "quote": "battery dies in an hour",
+          "severity": "high"
+        },
+        {
+          "category": "delivery_fulfillment",
+          "label": "box late and warm",
+          "quote": "box arrived a day late and warm",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Battery lasts only an hour and the box arrived late and warm.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_d322e0c5d0",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "useless chatbot, no human",
+          "quote": "chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Rates the product highly but could not reach a human in support.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_d352ebda6b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new layout is confusing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support was fast but the new layout is confusing.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_d3e39c48c8",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "support never responded",
+          "quote": "support never replied",
+          "severity": "high"
+        },
+        {
+          "category": "pricing_value",
+          "label": "price increased without warning",
+          "quote": "price went up with no warning",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Support never replied and the price rose without notice.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_d42b27c6a1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "undisclosed hidden fees",
+          "quote": "Hidden fees nobody told me about.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User is upset about undisclosed hidden fees.",
+      "confidence": 0.89
+    },
+    {
+      "id": "r_d5bd375ce2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "locked out of account",
+          "quote": "Locked out of my own account",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User is locked out of their account.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_d64c357742",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "too expensive for value",
+          "quote": "way too expensive for what it does",
+          "severity": "medium"
+        },
+        {
+          "category": "auth_access",
+          "label": "cannot log in after update",
+          "quote": "can't log back in after the update",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User finds it overpriced and cannot log in after the update.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_d8009cd95a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "happy, saves time",
+          "quote": "Really hapy with this. Huge time saver.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User is very happy and says it saves a lot of time.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_d940559c2a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "pricing_value",
+          "label": "undisclosed hidden fees",
+          "quote": "Hidden fees nobody told me about.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User complains about undisclosed hidden fees.",
+      "confidence": 0.87
+    },
+    {
+      "id": "r_d95002fac3",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "billing_charges",
+          "label": "refund not received",
+          "quote": "Refund still hasn't come through.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User is frustrated that a promised refund has not arrived.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_d9caa6aa15",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "very slow loading",
+          "quote": "takes forever to load",
+          "severity": "medium"
+        },
+        {
+          "category": "delivery_fulfillment",
+          "label": "box arrived a day late",
+          "quote": "box arrived a day late",
+          "severity": "medium"
+        },
+        {
+          "category": "product_quality",
+          "label": "box arrived warm",
+          "quote": "warm",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App loads very slowly and the delivery arrived late and warm.",
+      "confidence": 0.7
+    },
+    {
+      "id": "r_da8f17dbda",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "huge time saver",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "missing_features",
+          "label": "no recurring tasks",
+          "quote": "wish it had recurring tasks",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "Big time saver but lacks recurring tasks.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_db192b47fd",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "saves a lot of time",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "product_quality",
+          "label": "spoiled ingredients on arrival",
+          "quote": "ignredients were spoiled on arrival",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Time-saving service but ingredients arrived spoiled.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_db2e1965c9",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "left earbud failed after a week",
+          "quote": "Left earbud stopped working after a week",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Left earbud stopped working after one week.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_db7182a906",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User praises the app as best in its category.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_de2a150d17",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "big time saver",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "rude agent on the phone",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Saves time but the phone support agent was rude.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_dff1eb999a",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "sync takes minutes",
+          "quote": "Sync takes minutes",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User reports sync is very slow.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_e03badcf05",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "long loading spinner",
+          "quote": "Spinnign wheel for ages",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User complains about very slow loading.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_e0b0658aba",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "freezes on home screen",
+          "quote": "keeps freezign on the home screen",
+          "severity": "high"
+        },
+        {
+          "category": "ux_usability",
+          "label": "confusing new layout",
+          "quote": "new layout is confusing",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "App freezes on the home screen and the new layout is confusing.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_e0bfa52ea0",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well for user",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "pricing_value",
+          "label": "undisclosed hidden fees",
+          "quote": "hidden fees nobody told me about",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Works well but the user was hit with hidden fees.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_e1134e0173",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "saves a lot of time",
+          "quote": "Huge time saver.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User is happy and says it saves a lot of time.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_e2a280d280",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "sync takes minutes",
+          "quote": "Sync takes minutes.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User complains sync takes minutes.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_e34881e458",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "left earbud failed after a week",
+          "quote": "Left earbud stopped working after a week.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Left earbud stopped working after one week.",
+      "confidence": 0.82
+    },
+    {
+      "id": "r_e606921418",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "loves the app",
+          "quote": "Honestly love it.",
+          "severity": "none"
+        }
+      ],
+      "summary_en": "User loves the app.",
+      "confidence": 0.93
+    },
+    {
+      "id": "r_e7a4e8b815",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "neutral",
+      "severity": "none",
+      "issues": [],
+      "summary_en": "Gibberish test text with no actual feedback.",
+      "confidence": 0.6
+    },
+    {
+      "id": "r_e847b3b06b",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "half the order missing",
+          "quote": "Missing half the order",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Half of the order was missing.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_ea2bcb0252",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "billing_charges",
+          "label": "refund not received",
+          "quote": "refund still hasn't come through",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Support was fast but the refund has not arrived.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_ebe548963f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "best in category",
+          "quote": "Best in its category",
+          "severity": "none"
+        },
+        {
+          "category": "ux_usability",
+          "label": "export button hard to find",
+          "quote": "can't find teh export button anymore",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Rates it best in class but can't find the export button.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_ebfecadb2d",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "delivery_fulfillment",
+          "label": "package left in the rain",
+          "quote": "Delivery left in the rain.",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Delivery was left out in the rain.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_ec1e12787f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "works well for user",
+          "quote": "Works great for me",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "rude agent on the phone",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Product works well but a phone agent was rude.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_ec5cda6393",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "product_quality",
+          "label": "spoiled ingredients on arrival",
+          "quote": "Ingredients were spoiled on arrival.",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Ingredients arrived spoiled and the user regrets paying.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_eca70df6be",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "crashes on every launch",
+          "quote": "crashes every time I open it",
+          "severity": "high"
+        },
+        {
+          "category": "billing_charges",
+          "label": "billed after cancelling",
+          "quote": "billed after I cancelled",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App crashes on every launch and the user was billed after cancelling.",
+      "confidence": 0.95
+    },
+    {
+      "id": "r_ef3e1d27e1",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "performance",
+          "label": "sync takes minutes",
+          "quote": "Sync takes minutes.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Disappointed by very slow sync.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_ef4ff90492",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "support resolved it quickly",
+          "quote": "Customer support fixed it fast",
+          "severity": "none"
+        },
+        {
+          "category": "auth_access",
+          "label": "2FA loop blocks login",
+          "quote": "2FA loop won't let me in",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Support was fast but a 2FA loop blocks account access.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_f0c1acc1ae",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "Rude agent on the phone.",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "User encountered a rude support agent on the phone.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_f45a2f701e",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "ux_usability",
+          "label": "unreadable dark mode",
+          "quote": "Dark mode is unreadable",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Dark mode is unreadable.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_f478dd4c34",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "freezes on home screen",
+          "quote": "Keeps freezing on teh home screen",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "App keeps freezing on the home screen.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_f4d813bbe2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "gorgeous design",
+          "quote": "The design is gorgeous",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "no human support reachable",
+          "quote": "chatbot is useless, couldn't reach a human",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Likes the design but could not reach a human in support.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_f5033cc980",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "issues": [
+        {
+          "category": "support_quality",
+          "label": "support never responded",
+          "quote": "Support never replied.",
+          "severity": "high"
+        }
+      ],
+      "summary_en": "Support never replied to the user.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_f88e7d3606",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "password reset email never arrives",
+          "quote": "password reset email never arrives",
+          "severity": "critical"
+        },
+        {
+          "category": "ux_usability",
+          "label": "too many taps per task",
+          "quote": "too many taps to do one thign",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Cannot reset password because the email never arrives, and the UI needs too many taps.",
+      "confidence": 0.92
+    },
+    {
+      "id": "r_f917c19145",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no recurring tasks",
+          "quote": "wish it had recurring tasks",
+          "severity": "low"
+        },
+        {
+          "category": "pricing_value",
+          "label": "not worth the subscription",
+          "quote": "not worth the subscription",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Wants recurring tasks and feels the subscription isn't worth the price.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_f91b2b5435",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "exactly what user needed",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "performance",
+          "label": "sync takes minutes",
+          "quote": "sync takes minutes",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Likes the app but sync is slow.",
+      "confidence": 0.88
+    },
+    {
+      "id": "r_fb784235b2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "meets user's needs",
+          "quote": "Exactly what i needed",
+          "severity": "none"
+        },
+        {
+          "category": "support_quality",
+          "label": "rude phone agent",
+          "quote": "rude agent on the phone",
+          "severity": "medium"
+        }
+      ],
+      "summary_en": "Product fits the user's needs but a phone support agent was rude.",
+      "confidence": 0.85
+    },
+    {
+      "id": "r_fcac9da5df",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "praise",
+          "label": "huge time saver",
+          "quote": "Huge time saver",
+          "severity": "none"
+        },
+        {
+          "category": "crashes_stability",
+          "label": "random crashes lose work",
+          "quote": "app closes randomly and I lose my work",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "Saves time but random crashes cause lost work.",
+      "confidence": 0.9
+    },
+    {
+      "id": "r_fce2f25103",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no bulk edit",
+          "quote": "No way to bulk edit.",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User is unhappy that bulk editing is not available.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_fd47ccf880",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "Needs a web version",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User wants a web version.",
+      "confidence": 0.82
+    },
+    {
+      "id": "r_fdab9d361f",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "auth_access",
+          "label": "2FA loop blocks login",
+          "quote": "2fa loop won't let me in",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "User is locked out of the account by a 2FA loop.",
+      "confidence": 0.94
+    },
+    {
+      "id": "r_fde6364af2",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "issues": [
+        {
+          "category": "missing_features",
+          "label": "no web version",
+          "quote": "Needs a web version",
+          "severity": "low"
+        }
+      ],
+      "summary_en": "User is disappointed there is no web version.",
+      "confidence": 0.8
+    },
+    {
+      "id": "r_ff464b68ac",
+      "is_spam": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "issues": [
+        {
+          "category": "crashes_stability",
+          "label": "crashes and loses work",
+          "quote": "App closes randomly and i lose my work",
+          "severity": "critical"
+        }
+      ],
+      "summary_en": "App closes randomly and the user loses work.",
+      "confidence": 0.92
+    }
+  ]
+}

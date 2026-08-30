@@ -1,0 +1,34 @@
+{
+  "name": "review-signal",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.12.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "db:up": "docker compose up -d && pnpm --filter @rs/api db:wait",
+    "db:down": "docker compose down",
+    "db:push": "pnpm --filter @rs/api db:push",
+    "db:reset": "pnpm --filter @rs/api db:reset",
+    "seed": "pnpm --filter @rs/api seed",
+    "pipeline:run": "pnpm --filter @rs/api pipeline:run",
+    "pipeline:snapshot": "pnpm --filter @rs/api pipeline:snapshot",
+    "eval": "pnpm --filter @rs/api eval",
+    "setup": "pnpm install && pnpm db:up && pnpm db:push && pnpm seed",
+    "postinstall": "pnpm --filter @rs/contracts build"
+  },
+  "devDependencies": {
+    "turbo": "2.10.12",
+    "typescript": "5.9.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

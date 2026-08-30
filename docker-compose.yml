@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: review-signal-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: review_signal
+    ports:
+      # 5433 on the host so it never collides with a local Postgres on 5432
+      - "5433:5432"
+    volumes:
+      - review-signal-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d review_signal"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  review-signal-pgdata:

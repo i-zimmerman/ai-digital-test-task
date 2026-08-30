@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+.env
+.env.local
+.DS_Store
+apps/api/drizzle/meta/_journal.json.bak
+eval-report.json
+.playwright-mcp/

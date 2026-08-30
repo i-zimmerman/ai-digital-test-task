@@ -1,0 +1,354 @@
+{
+  "$comment": "Hand-labelled evaluation set. See WRITEUP.md for the labelling rubric and README.md for how to run the eval.",
+  "labelledBy": "Alex Tsimmerman",
+  "rubric": {
+    "sampling": "20 reviews chosen by stratum, not at random: 2 spam, 2 junk, 3 non-English, 2 members of duplicate clusters, 4 multi-issue, 3 where the star rating contradicts the text, 4 ordinary. Random sampling of 20 out of 300 would have been ~95% ordinary English single-issue reviews and would have measured nothing interesting.",
+    "severity": "Anchored to consequence for the user, not tone. Blocked out / money moved / data lost = critical.",
+    "categories": "Every issue in the review, as a set. Order does not matter. Spam and junk carry no categories."
+  },
+  "labels": [
+    {
+      "id": "r_60923316c6",
+      "stratum": "spam",
+      "is_spam": true,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "neutral",
+      "severity": "none",
+      "categories": [],
+      "note": "Work-from-home scam with a shortened link. No product feedback at all."
+    },
+    {
+      "id": "r_aa3a14c2a6",
+      "stratum": "spam",
+      "is_spam": true,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "neutral",
+      "severity": "none",
+      "categories": [],
+      "note": "Crypto airdrop spam."
+    },
+    {
+      "id": "r_4685b7a3e1",
+      "stratum": "junk",
+      "is_spam": false,
+      "is_junk": true,
+      "language": "en",
+      "sentiment": "neutral",
+      "severity": "none",
+      "categories": [],
+      "note": "Forum-style 'First!!!!' post. Not spam - just contentless."
+    },
+    {
+      "id": "r_9a77dc1f68",
+      "stratum": "junk",
+      "is_spam": false,
+      "is_junk": true,
+      "language": "en",
+      "sentiment": "positive",
+      "severity": "none",
+      "categories": [],
+      "note": "Judgement call: a thumbs-up carries a weak positive signal but nothing actionable, so it is excluded from the issue report. Sentiment still labelled positive - the eval scores that separately."
+    },
+    {
+      "id": "r_18240baa21",
+      "stratum": "non-english",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "de",
+      "sentiment": "negative",
+      "severity": "high",
+      "categories": [
+        "crashes_stability"
+      ],
+      "note": "German: app crashes constantly since the last update. Carries a 4-star rating, which contradicts the text."
+    },
+    {
+      "id": "r_24734e41d9",
+      "stratum": "non-english",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "zh",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "categories": [
+        "praise",
+        "pricing_value"
+      ],
+      "note": "Chinese: works well and looks good, but too expensive. Rated 1 star, which contradicts the text."
+    },
+    {
+      "id": "r_501eba2f4e",
+      "stratum": "non-english",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "es",
+      "sentiment": "negative",
+      "severity": "critical",
+      "categories": [
+        "billing_charges"
+      ],
+      "note": "Spanish: charged twice this month, wants a refund. Money moved wrongly, so critical."
+    },
+    {
+      "id": "r_eb94a23055",
+      "stratum": "duplicate",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "categories": [
+        "billing_charges",
+        "support_quality"
+      ],
+      "note": "Canonical member of a three-channel cross-post cluster."
+    },
+    {
+      "id": "r_83f71a6b70",
+      "stratum": "duplicate-typo",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "categories": [
+        "pricing_value"
+      ],
+      "note": "Clean twin of a 'Regret payign' typo variant - only fuzzy matching catches this pair."
+    },
+    {
+      "id": "r_a47ed874be",
+      "stratum": "multi-issue",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "categories": [
+        "crashes_stability",
+        "support_quality"
+      ],
+      "note": "Two distinct issues. Crashes on every launch is high, not critical - no data loss stated."
+    },
+    {
+      "id": "r_eca70df6be",
+      "stratum": "multi-issue",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "categories": [
+        "crashes_stability",
+        "billing_charges"
+      ],
+      "note": "Billed after cancelling drives severity to critical. Rated 5 stars, contradicting the text."
+    },
+    {
+      "id": "r_0dc527f328",
+      "stratum": "multi-issue",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "categories": [
+        "support_quality",
+        "pricing_value"
+      ],
+      "note": "Slow support plus a price rise. Annoying, but nothing is broken or blocked."
+    },
+    {
+      "id": "r_ac1a8de851",
+      "stratum": "multi-issue",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "high",
+      "categories": [
+        "product_quality",
+        "support_quality"
+      ],
+      "note": "An earbud complaint filed against a meal-kit product - the source data mismatches product and text. Labelled on what the text says, not what the product is."
+    },
+    {
+      "id": "r_2caf6a9646",
+      "stratum": "rating-contradiction",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "categories": [
+        "praise",
+        "pricing_value"
+      ],
+      "note": "Genuine praise and a genuine complaint, so mixed rather than negative."
+    },
+    {
+      "id": "r_b1e53011f8",
+      "stratum": "rating-contradiction",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "low",
+      "categories": [
+        "missing_features"
+      ],
+      "note": "Negative tone but the only concrete issue is a feature wish, so severity is low. Rated 5 stars."
+    },
+    {
+      "id": "r_58bb46cd27",
+      "stratum": "rating-contradiction",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "low",
+      "categories": [
+        "praise",
+        "missing_features"
+      ],
+      "note": "Near-identical issue to the row above but positive framing - a good test of sentiment vs severity independence."
+    },
+    {
+      "id": "r_3144e02fce",
+      "stratum": "ordinary",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "critical",
+      "categories": [
+        "auth_access"
+      ],
+      "note": "Completely locked out - the user cannot use the product at all."
+    },
+    {
+      "id": "r_ef4ff90492",
+      "stratum": "ordinary",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "critical",
+      "categories": [
+        "praise",
+        "auth_access"
+      ],
+      "note": "Praise for support does not lower the severity of being locked out by a 2FA loop."
+    },
+    {
+      "id": "r_45cba10d32",
+      "stratum": "ordinary",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "mixed",
+      "severity": "medium",
+      "categories": [
+        "praise",
+        "ux_usability"
+      ],
+      "note": "Friction, not breakage."
+    },
+    {
+      "id": "r_401cbedf1c",
+      "stratum": "ordinary",
+      "is_spam": false,
+      "is_junk": false,
+      "language": "en",
+      "sentiment": "negative",
+      "severity": "medium",
+      "categories": [
+        "pricing_value",
+        "ux_usability"
+      ],
+      "note": "Contains the word 'free' but is a legitimate complaint - the case a naive spam regex gets wrong."
+    }
+  ],
+  "expectedDuplicateClusters": [
+    [
+      "r_0fe32de200",
+      "r_e1134e0173"
+    ],
+    [
+      "r_7720d1096f",
+      "r_6861cf24a5"
+    ],
+    [
+      "r_eb94a23055",
+      "r_0857a9603d",
+      "r_c0fd7ebdcf"
+    ],
+    [
+      "r_9f69bbf7cb",
+      "r_e7bfcfa2d5"
+    ],
+    [
+      "r_e02b7b1060",
+      "r_6373986bbb"
+    ],
+    [
+      "r_2caf6a9646",
+      "r_fbe0ebb681"
+    ],
+    [
+      "r_26675f5a21",
+      "r_715a71a7cd",
+      "r_086ea16b49"
+    ],
+    [
+      "r_8d92f3c14c",
+      "r_9ddc2bf520"
+    ],
+    [
+      "r_30f4500bcf",
+      "r_83f71a6b70"
+    ],
+    [
+      "r_08972ad5aa",
+      "r_3a889eb342"
+    ],
+    [
+      "r_9cdbce00b5",
+      "r_5a46fb0454",
+      "r_ce41bc53af"
+    ],
+    [
+      "r_a80e74f332",
+      "r_ed03a9e2dd"
+    ]
+  ],
+  "expectedNotDuplicates": [
+    [
+      "r_45cba10d32",
+      "r_babdb3aea7"
+    ],
+    [
+      "r_11fb7f0564",
+      "r_c8f89c17d1"
+    ],
+    [
+      "r_eca70df6be",
+      "r_ae432c7f0a"
+    ],
+    [
+      "r_0dc527f328",
+      "r_62afe2076a"
+    ],
+    [
+      "r_8be6e1a217",
+      "r_d3e39c48c8"
+    ],
+    [
+      "r_62afe2076a",
+      "r_12e3c73b6f"
+    ]
+  ],
+  "$comment2": "expectedDuplicateClusters and expectedNotDuplicates were built by reading every pair in the corpus scoring above 0.60 trigram similarity within a product (43 pairs) and judging each by hand. Labelling rule: a cross-post is the SAME review text re-posted to another channel, so only typos and punctuation may differ. The negatives are the near-misses that share a template opener or a complaint clause but are separate pieces of feedback - the highest scores 0.806, which is why the threshold sits at 0.88."
+}

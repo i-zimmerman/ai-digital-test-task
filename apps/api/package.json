@@ -1,0 +1,41 @@
+{
+  "name": "@rs/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/main.ts",
+    "start": "node dist/main.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "db:wait": "tsx src/cli/db-wait.ts",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:reset": "tsx src/cli/db-reset.ts",
+    "seed": "tsx src/cli/seed.ts",
+    "pipeline:run": "tsx src/cli/run-pipeline.ts",
+    "pipeline:snapshot": "tsx src/cli/export-snapshot.ts",
+    "eval": "tsx src/cli/eval.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.122.0",
+    "@nestjs/common": "12.0.1",
+    "@nestjs/core": "12.0.1",
+    "@nestjs/platform-express": "12.0.1",
+    "@rs/contracts": "workspace:*",
+    "dotenv": "17.2.3",
+    "drizzle-orm": "0.45.2",
+    "pg": "8.16.3",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/pg": "8.15.5",
+    "drizzle-kit": "0.31.10",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  }
+}
